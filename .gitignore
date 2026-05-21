@@ -1,0 +1,15 @@
+# Java compiled files
+*.class
+
+# Packaged Java archives / generated artifacts
+*.jar
+*.war
+*.ear
+
+# Maven build output
+target/
+
+# IDE/system files
+.vscode/
+.idea/
+.DS_Store
