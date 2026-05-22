@@ -6,7 +6,13 @@ public class HelloWorld {
 
     public static void main(String[] args) {
         logger.info("Starting HelloWorld");
-        logger.info("hello world");
+
+        if (args.length > 0) {
+            logger.info("hello {}", args[0]);
+        } else {
+            logger.info("hello world");
+        }
+
         logger.info("HelloWorld finished");
     }
 }
